@@ -24,4 +24,11 @@
 * Cookie请通过F12获取
 * 个人ID,个人名称均可在CSDN个人中心获取
 
+### 日报生成脚本 news.py base.jpg
+# 需要先安装模块, pip install cn2an , pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python
+# 推送功能请自行实现.个人使用的是微信公众号推送.
+# 自定义修改文字位置,以及修改原始图片base.jpg
+# 内容可自定义
+# 天行数据Key请前往官网注册.
+
 ![image](https://user-images.githubusercontent.com/22621145/122183411-cc7fcb00-cebd-11eb-907f-32043dd611fb.png)
