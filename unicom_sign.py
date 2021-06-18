@@ -208,9 +208,10 @@ class UnicomSign():
         for i in range(3):
             res8 = self.request.post("https://m.client.10010.com/dailylottery/static/doubleball/choujiang", data=data8,
                                      headers=headers)
-            print(">>>金币抽奖：", res8.json()['RspMsg'])
-            self.resp += ">>>金币抽奖：" + res8.json()['RspMsg'] + '\n\n'
-            sleep(3)
+            if res8.status_code == 200:
+                print(">>>金币抽奖：", res8.json()['RspMsg'])
+                self.resp += ">>>金币抽奖：" + res8.json()['RspMsg'] + '\n\n'
+                sleep(3)
 
 
 
@@ -221,5 +222,5 @@ if __name__ == '__main__':
     user.login(phone, password)  # 用户登录   这里需要更改
     user.daysign()  # 日常签到领积分，1g流量日包
     user.daytask()  # 日常任务
-    send_server('联通营业厅签到通知', user.resp)  # Server酱推送
+    #send_server('联通营业厅签到通知', user.resp)  # Server酱推送
     # tgPush(user.resp)
