@@ -19,4 +19,9 @@
 * 电脑打开浏览器访问v.qq.com，打开控制台(F12)、切换到Network，找到 https://access.video.qq.com/user/auth_refresh 的接口，把Request URL:后的地址都复制一下，填写到脚本的auth_refresh_url中，如：
 * 复制Request Header中的cookie，填写到脚本的Cookie配置中
 
+### CSDN自动评论脚本 csdn_sign.py
+* 可以自动对CSDN热门文章进行评论,提升CSDN等级
+* Cookie请通过F12获取
+* 个人ID,个人名称均可在CSDN个人中心获取
+
 ![image](https://user-images.githubusercontent.com/22621145/122183411-cc7fcb00-cebd-11eb-907f-32043dd611fb.png)
