@@ -34,5 +34,10 @@
 ![news](https://user-images.githubusercontent.com/22621145/122530097-b8200780-d050-11eb-9615-d9eb567f75fc.jpg)
 
 
+### 批量发送邮件脚本 sendMail.py
+* 配置收件人,发件人,以及邮箱授权码
+* 需要开启QQ邮箱的STMP配置,https://www.jspxcms.com/documentation/351.html
+
+
 # 个人公众号
 ![image](https://user-images.githubusercontent.com/22621145/122183411-cc7fcb00-cebd-11eb-907f-32043dd611fb.png)
