@@ -39,5 +39,10 @@
 * 需要开启QQ邮箱的STMP配置,https://www.jspxcms.com/documentation/351.html
 
 
+# 免责声明
+* 代码仅供学习
+* 不可用于商业以及非法目的,使用本代码产生的一切后果, 作者不承担任何责任.
+
+
 # 个人公众号
 ![image](https://user-images.githubusercontent.com/22621145/122183411-cc7fcb00-cebd-11eb-907f-32043dd611fb.png)
