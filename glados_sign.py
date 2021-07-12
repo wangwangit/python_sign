@@ -11,6 +11,35 @@ Cookie = 'xxxxxxxxxxx'
 # 新版Server酱配置
 server_key = 'xxxxxxxxxx'
 
+# 企业微信配置
+corpid = 'xxx'     # 上面提到的你的企业ID
+corpsecret = 'xxx'     # 上图的Secret
+agentid = xxx  # 填写你的企业ID，不加引号，是个整型常数,就是上图的AgentId
+
+# 企业微信推送
+def wxPush(message):
+    token_url = 'https://qyapi.weixin.qq.com/cgi-bin/gettoken?' + 'corpid=' + corpid + '&corpsecret=' + corpsecret
+    req_url = 'https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token='
+    resp = requests.get(token_url).json()
+    access_token = resp['access_token']
+    data = {
+        "touser": "@all",
+        "toparty": "@all",
+        "totag": "@all",
+        "msgtype": "text",
+        "agentid": agentid,
+        "text": {
+            "content": message
+        },
+        "safe": 0,
+        "enable_id_trans": 0,
+        "enable_duplicate_check": 0,
+        "duplicate_check_interval": 1800
+    }
+    data = json.dumps(data)
+    req_urls = req_url + access_token
+    res = requests.post(url=req_urls, data=data)
+    print(res.text)
 
 # 新版Server酱推送
 def send_server(title, content):
