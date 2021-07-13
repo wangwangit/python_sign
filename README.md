@@ -38,6 +38,10 @@
 * 配置收件人,发件人,以及邮箱授权码
 * 需要开启QQ邮箱的STMP配置,https://www.jspxcms.com/documentation/351.html
 
+### 掘金签到脚本 juejin.py
+* 配置掘金Cookie,企业微信相关配置
+* 可部署服务器,使用cron定时执行.
+
 
 # 免责声明
 * 代码仅供学习
