@@ -46,6 +46,13 @@
 * 配置企业微信相关配置
 * 可部署服务器,使用cron定时执行.
 
+### leetcode推送脚本 leetcode.py
+* 配置企业微信相关配置
+* 可部署服务器,使用cron定时执行.
+* 实现效果如下图  
+![2UTD~HQKEDHEPO97B) CTNY](https://user-images.githubusercontent.com/22621145/127611928-2d380f26-0dd0-4511-a0f4-d540f8208d7b.png)
+
+
 # 免责声明
 * 代码仅供学习
 * 不可用于商业以及非法目的,使用本代码产生的一切后果, 作者不承担任何责任.
