@@ -57,4 +57,8 @@ if __name__ == '__main__':
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 Edg/91.0.864.37'},
                          cookies={
                              'Cookie': jj_cookie})
-    wxPush("掘金签到\n\n" + resp.text)
+    lotteryUrl = 'https://api.juejin.cn/growth_api/v1/lottery/draw'
+    lotteryResp = requests.post(lotteryUrl, headers={
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 Edg/91.0.864.37'},cookies={
+                             'Cookie': jj_cookie})
+    wxPush("掘金签到\n" + resp.text + "\n抽奖结果" + lotteryResp.text)
