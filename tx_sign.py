@@ -2,7 +2,7 @@ import requests
 from requests import post
 
 # 腾讯Cookie,
-tx_cookie = 'pgv_pvid=6036319171; _ga=GA1.2.1783440562.1617659868; RK=P2xsmkwOWy; ptcz=962a7a1e67ac2406aab3efc0e7ba23345d7fc91ec4ad99ce16b74cf155b9a28d; tvfe_boss_uuid=fa43a63a3a0c6417; pac_uid=0_c3e468bf96299; o_cookie=1249217495; _gcl_au=1.1.1756066116.1624533069; video_guid=04a5728ac01f5a27; video_platform=2; pgv_info=ssid=s1955050180; _qpsvr_localtk=0.11117530483114613; ptui_loginuin=1249217495; main_login=qq; vqq_access_token=49A7132D22745AA0B41DA1D2B95294D2; vqq_appid=101483052; vqq_openid=5C5817CC0F6C93EB19E63E9B261113B2; vqq_vuserid=248126996; vqq_vusession=n_AsIVjAQADnMa8cxkNpQw..; vqq_refresh_token=45BEE4021749E2ECBC59FD5C67732ADD; login_time_init=2021-7-12 9:17:57; uid=79130810; vqq_next_refresh_time=6592; vqq_login_time_init=1626052686; login_time_last=2021-7-12 9:18:5; vversion_name=8.3.95.0; video_bucketid=4; video_omgid=test_jinfuwu_omgid'
+tx_cookie = ''
 auth_refresh_url = 'https://access.video.qq.com/user/auth_refresh?vappid=11059694&vsecret=fdf61a6be0aad57132bc5cdf78ac30145b6cd2c1470b0cfe&type=qq&g_tk=&g_vstk=406154242&g_actk=982078386&callback=jQuery19107263100220876779_1626052698163&_=1626052698164'
 
 # TG配置
