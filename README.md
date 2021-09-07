@@ -56,7 +56,7 @@
 * config.ini中需要填写配置 淘宝联盟中获取app_key,app_password,参考https://www.jianshu.com/p/571ae950916a ,app_id为你的推广位-pid字符串取最后的一串数字即可！
 * 或者直接前往http://114.96.82.213:5238/%E4%BC%98%E6%83%A0%E5%88%B8.exe  下载
 * 或者去下方公众号查询优惠券
-* 效果图![img.png](img.png)
+* 效果图![img.png](com/ww/taobao/img.png)
 
 
 # 免责声明
