@@ -60,6 +60,15 @@
 * 或者去下方公众号查询优惠券
 * 效果图![img.png](com/ww/taobao/img.png)
 
+### 无广软件下载平台,software
+* 无聊的时候做的玩的
+![img.png](img.png)
+
+### 微信机器人
+* itchat
+* wechatpy
+* hook
+* 一般就上面几种方式,有时间再补充代码吧!!!
 
 # 免责声明
 * 代码仅供学习
