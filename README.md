@@ -1,5 +1,32 @@
-# 各种签到脚本
-> 本项目主要是个人日常使用的一些脚本合集,也是自己学习python随手写的一些玩意.代码简陋,多多包涵!有兴趣的可以一起维护!
+# 🎉 各种签到脚本 🎉
+
+本项目是一些简单的 python 脚本，用于实现常见的各种签到功能，可以实现定时签到、自动签到等功能。
+
+## 功能
+
+* 定时签到
+* 自动签到
+* 发送微信消息提醒
+
+## 用法
+
+* 克隆项目
+```bash
+$ git clone https://github.com/xxx/xxx.git
+```
+* 安装依赖
+```bash
+$ pip install -r requirements.txt
+```
+* 修改配置文件
+```bash
+$ vi config.py
+```
+* 运行脚本
+```bash
+$ python sign.py
+```
+
 ## 点个star再走吧!!!
 ### 联通营业厅签到脚本 unicom_sign.py 
 * 替换手机号,密码,appId即可
@@ -84,3 +111,8 @@
 https://www.wangwangit.com/ 
 
 https://www.wangzai.top/
+
+
+## 支持
+
+如果你有任何问题，欢迎提交 issue 或者 pull request。
