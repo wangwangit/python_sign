@@ -8,25 +8,6 @@
 * 自动签到
 * 发送微信消息提醒
 
-## 用法
-
-* 克隆项目
-```bash
-$ git clone https://github.com/xxx/xxx.git
-```
-* 安装依赖
-```bash
-$ pip install -r requirements.txt
-```
-* 修改配置文件
-```bash
-$ vi config.py
-```
-* 运行脚本
-```bash
-$ python sign.py
-```
-
 ## 点个star再走吧!!!
 ### 联通营业厅签到脚本 unicom_sign.py 
 * 替换手机号,密码,appId即可
