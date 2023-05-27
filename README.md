@@ -101,3 +101,4 @@ https://www.wangzai.top/
 ## 支持
 
 如果你有任何问题，欢迎提交 issue 或者 pull request。
+感谢Cloudflare赞助: https://www.cloudflare.com
