@@ -100,7 +100,7 @@ https://www.wangzai.top/
 ###  鸣谢
 ### VTEXS
 
-[[ZMTO](www.zmto.com) ](https://www.zmto.com/)is a provider of high-performance cloud infrastructure and VPS hosting services, emphasizing guaranteed resources, 24/7 expert support, and a 99.99% uptime SLA. They support open-source projects by offering hosting resources,  to approved contributors.
+[ZMTO](https://www.zmto.com/) is a provider of high-performance cloud infrastructure and VPS hosting services, emphasizing guaranteed resources, 24/7 expert support, and a 99.99% uptime SLA. They support open-source projects by offering hosting resources,  to approved contributors.
 
 
 ## 支持
