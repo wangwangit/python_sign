@@ -97,13 +97,8 @@ https://www.wangwangit.com/
 
 https://www.wangzai.top/
 
-###  鸣谢
-### VTEXS
+#  鸣谢
+## ZMTO
 
 [ZMTO](https://www.zmto.com/) is a provider of high-performance cloud infrastructure and VPS hosting services, emphasizing guaranteed resources, 24/7 expert support, and a 99.99% uptime SLA. They support open-source projects by offering hosting resources,  to approved contributors.
 
-
-## 支持
-
-如果你有任何问题，欢迎提交 issue 或者 pull request。
-感谢Cloudflare赞助: https://www.cloudflare.com
